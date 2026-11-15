@@ -1,7 +1,7 @@
 /* Shared layout for the beige site: hero, floating WhatsApp, about, contact. */
 
-.hp-hero{position:relative;min-height:calc(78vh - 74px);display:flex;align-items:flex-end;margin-top:74px;padding:48px 6vw 64px;background:#1C1917 url(../assets/kth/valuation-poster.jpg) center 30%/cover}
-.hp-hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,#0d0b08e8 0%,#0d0b08a0 45%,#0d0b0840 100%),linear-gradient(to top,#0d0b08f0 0%,#0d0b0840 40%,transparent 70%)}
+.hp-hero{position:relative;min-height:calc(78vh - 74px);display:flex;align-items:flex-end;margin-top:74px;padding:48px 6vw 64px;background:#1C1917 url(../assets/kth/hero-living-room.webp) center 58%/cover}
+.hp-hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,11,8,.72) 0%,rgba(13,11,8,.40) 30%,rgba(13,11,8,.10) 54%,rgba(13,11,8,0) 72%)}
 .hp-hero .c{position:relative;z-index:1;max-width:720px;color:#fff}
 .hp-hero .eb{color:#D69F1A;letter-spacing:.22em;font-size:12px;font-weight:700;text-transform:uppercase;margin:0 0 14px}
 .hp-hero h1{font-size:clamp(48px,8vw,96px);margin:0 0 16px;line-height:.95;color:#fff;font-weight:800;letter-spacing:-.04em}
@@ -79,7 +79,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   .stat{max-width:280px}
   .portrait{max-width:280px}
   body:not(.home) .vhero{padding-top:8px}
-  .hp-hero{margin-top:68px;min-height:0;padding:36px 6vw 40px}
+  .hp-hero{margin-top:68px;min-height:0;padding:36px 6vw 40px;background-position:68% 52%}
+  .hp-hero .shade{background:linear-gradient(180deg,rgba(13,11,8,.20) 0%,rgba(13,11,8,.28) 100%)}
+  .hp-hero h1,.hp-hero .hp-quote,.hp-hero .eb{text-shadow:0 1px 2px rgba(13,11,8,.55),0 8px 22px rgba(13,11,8,.35)}
+  .hp-hero .pill.ghost{text-shadow:0 1px 2px rgba(13,11,8,.5);box-shadow:0 2px 12px rgba(13,11,8,.22)}
   .hp-hero .btns,.hp-hero .btns .pill{width:100%}
   .hp-hero .btns .pill{justify-content:center}
 }
