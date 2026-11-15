@@ -1,0 +1,429 @@
+{
+ "note": "Draft for Louis to review. Deals (seller and buyer side). No unit numbers, prices or client info.",
+ "transactions": [
+  {
+   "title": "Blk 101 Bishan St 12",
+   "area": "Bishan",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/63a074cd999349bc836133a1d832f6a8.webp",
+    "assets/kth/transactions/1eea2ea63f7c4e09881e0c1e0e1cdfb3.webp",
+    "assets/kth/transactions/c8f90d028293490fa2af51ec1de78c0b.webp",
+    "assets/kth/transactions/0fe4ffb6cfc04058bc1a4d1c905b4943.webp",
+    "assets/kth/transactions/a86064db7b4a43b1957e7f57427b83a7.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 117 Edgefield Plains",
+   "area": "Punggol",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/994f046838f04d49a5d8a983872d2a23.webp",
+    "assets/kth/transactions/c88efc52146541b99fc1ca03ee4d8339.webp",
+    "assets/kth/transactions/44bbbadad4ce45179ccda88a68f44f45.webp",
+    "assets/kth/transactions/593084de4d3441c19a29f373875e946a.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 118A Alkaff Crescent",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Bought",
+   "photos": [
+    "assets/kth/transactions/a418d39f017346ceadf64e1db5922477.webp",
+    "assets/kth/transactions/4b5b57303896406c8923f9409c455601.webp",
+    "assets/kth/transactions/8468853c92c347878b2ed656ceb1ad15.webp",
+    "assets/kth/transactions/e8bd3112d8164b6c95b7e5dbc92e6d52.webp",
+    "assets/kth/transactions/fb455fcd92274db3a8db9687ea17dca8.webp"
+   ],
+   "side": "buyer"
+  },
+  {
+   "title": "Blk 127D Kim Tian Road",
+   "area": "Bukit Merah",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/65feb2b171914d8d8061d6fe73ea6c06.webp",
+    "assets/kth/transactions/b9a4a05fe3114537a38bf043d7981b60.webp",
+    "assets/kth/transactions/ac05cb0887f84df996b48cdbd647ccfc.webp",
+    "assets/kth/transactions/1b38f901040b419abd7d87415bb913b8.webp",
+    "assets/kth/transactions/f7e8ed5e43fe4e128b935cd52a9ac9d3.webp"
+   ],
+   "dom": 31,
+   "side": "seller"
+  },
+  {
+   "title": "Blk 130A Lorong 1 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/6c16c63714c445a1bc25015b8c52104c.webp",
+    "assets/kth/transactions/03c7f22331394477a5441b4baaf9f7d5.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 4 Boon Keng Road",
+   "area": "Kallang/Whampoa",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/ad61f36c1afa4ec98fd99a363b82f514.webp",
+    "assets/kth/transactions/91611cebd99d442f82bf5ff04759e11b.webp",
+    "assets/kth/transactions/49e1828bc8d04b42a9cdec817528a5e6.webp",
+    "assets/kth/transactions/5949fa477b724b5194545486f1b736e7.webp",
+    "assets/kth/transactions/b18d5cd50bf64ffab30b17885e6b49d9.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 613 Yishun St 61",
+   "area": "Yishun",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/483bf190ba4e4ebca6730925e2089e6e.webp",
+    "assets/kth/transactions/5198a54ef28749c8a0acb36be87cb0c4.webp",
+    "assets/kth/transactions/cda76772caba4222892b1a43d4051056.webp",
+    "assets/kth/transactions/f79a38246c37427c8cc25f50acdbbb9e.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 7 Boon Keng Road",
+   "area": "Kallang/Whampoa",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/f1a16edfb3274ef58eddd34288ff6836.webp",
+    "assets/kth/transactions/d0d61732abf24baa857d784baa222de0.webp",
+    "assets/kth/transactions/ed17211370e048ebace366ec9ea2cb3d.webp",
+    "assets/kth/transactions/25a3e9da984f4ba88e682d175609560f.webp",
+    "assets/kth/transactions/2e8c33f621314d09a09f817eab697076.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Le Regal, Geylang Road",
+   "area": "D14 \u00b7 Geylang / Eunos",
+   "type": "Private",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/876daad0fdf94c85b73a15a3bae616ae.webp",
+    "assets/kth/transactions/512c54f96f054332974a811fc1393a80.webp",
+    "assets/kth/transactions/724f2c50396c4bfb9453fc79a2a1d26b.webp",
+    "assets/kth/transactions/3df31079a0af44fd9f22247cc15804db.webp",
+    "assets/kth/transactions/7f53062068ee45dc877cd0cae9d249f1.webp"
+   ],
+   "side": "seller",
+   "town": "Geylang"
+  },
+  {
+   "title": "Le Regal, Geylang Road",
+   "area": "D14 \u00b7 Geylang / Eunos",
+   "type": "Private",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/244a0b87b43043b2afe3f99743fb117c.webp",
+    "assets/kth/transactions/f556881f21c640fb8c4bf6202bfb6ed5.webp",
+    "assets/kth/transactions/fc86049b827b4acbae7d76070465f249.webp",
+    "assets/kth/transactions/654260549751440187b36fc904de3465.webp",
+    "assets/kth/transactions/a159ab33cfcf466d8c8b7b47c35d2b2f.webp"
+   ],
+   "side": "seller",
+   "town": "Geylang"
+  },
+  {
+   "title": "Blk 227A Ang Mo Kio St 23",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Bought",
+   "photos": [
+    "assets/kth/transactions/a5434bc8e49e4e09a929bdc8fdbc4c74.webp",
+    "assets/kth/transactions/d4c9dea2d8624d02add5a36f0284384e.webp",
+    "assets/kth/transactions/35704cdaf6084b88b72878398a42818b.webp"
+   ],
+   "side": "buyer"
+  },
+  {
+   "title": "Parc Life, Sembawang Crescent",
+   "area": "D27 \u00b7 Yishun / Sembawang",
+   "type": "Private",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/2e1420a22b864f12a630bd2a55e9ddd6.webp",
+    "assets/kth/transactions/52fbc98656ef494098d377534db99604.webp",
+    "assets/kth/transactions/6c0b1d6f153f449fa23eee72beecf742.webp",
+    "assets/kth/transactions/8aba0f9b72ad4eeebe7747f6364586cb.webp",
+    "assets/kth/transactions/63b7539e412f4d79864eaca18d0b1e6e.webp"
+   ],
+   "side": "seller",
+   "town": "Sembawang"
+  },
+  {
+   "title": "Parc Life, Sembawang Crescent",
+   "area": "D27 \u00b7 Yishun / Sembawang",
+   "type": "Private",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/2d12a3bbc2354317abab5d6589ab4114.webp",
+    "assets/kth/transactions/0022f28ceb084c49ac5a17f60e8a4c5a.webp",
+    "assets/kth/transactions/25939802e7b44ee6a4db775766aed812.webp",
+    "assets/kth/transactions/296b938943e44561b442223b3709c494.webp",
+    "assets/kth/transactions/3500552a3e194e629fd64fdc9d4cd1ad.webp"
+   ],
+   "side": "seller",
+   "town": "Sembawang"
+  },
+  {
+   "title": "Blk 104 Potong Pasir Ave 1",
+   "area": "Potong Pasir",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/b8b135fc962743378096737a892fcf3f.webp",
+    "assets/kth/transactions/ca20797f2aa84fb1bbc6016aeb11004f.webp",
+    "assets/kth/transactions/aca5765a3a864007ac5220d841c4edbc.webp",
+    "assets/kth/transactions/d316a4ca90574dcc82681b51bf8c2719.webp",
+    "assets/kth/transactions/5a02346d19cf4241ab5538eab11fbbbe.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 185 Toa Payoh Central",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/0226d699b0a5420798b742ba12b7a827.webp",
+    "assets/kth/transactions/504a81b25742493eb3b79f86467494bf.webp",
+    "assets/kth/transactions/b30c0ed7bfba4944962673e637edf58a.webp",
+    "assets/kth/transactions/11fe3551102f46eba0fff30c91fd74a3.webp",
+    "assets/kth/transactions/85c45df09d2a438da503f4e6c0e271fb.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 725 Bedok Reservoir Road",
+   "area": "Bedok",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/8711f568fdcd4a058caac88d187db3e2.webp",
+    "assets/kth/transactions/4dc74d330bf74aa3a211db583c907842.webp",
+    "assets/kth/transactions/1963fe4b1406426caabafc1f8274129f.webp",
+    "assets/kth/transactions/a674b6134b2744d88462fe5ec65d2708.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 18 Taman Ho Swee",
+   "area": "Bukit Merah",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/0e5406bccea94411adaa929ab82c8b2c.webp",
+    "assets/kth/transactions/77ddf6941c8442a7851b53570b5b0840.webp",
+    "assets/kth/transactions/cbb6fcb4eb234503a18eea5c14341351.webp",
+    "assets/kth/transactions/1d4940a4ea0743ef8999fc861c33af2d.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 178 Lompang Road",
+   "area": "Bukit Panjang",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/5135e8ff4a4b4cd58134e625c1e58e33.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 337 Ang Mo Kio Ave 1",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/4db410c5c0d847fa84d0c5a3ead41bb4.webp",
+    "assets/kth/transactions/33475ee026054401ad18875465a8eeb5.webp",
+    "assets/kth/transactions/9db14b24d4194cf481c83c3e5c2bbc28.webp",
+    "assets/kth/transactions/37d0c791884844bcaf61be3b60155d79.webp",
+    "assets/kth/transactions/3913faaeedd84e658385145579b8bab7.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 556 Ang Mo Kio Ave 10",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/a24d522748f04ee385e4dfacb1f02fc5.webp",
+    "assets/kth/transactions/66aa3e7ac7ff4b60a053ff7cedc19351.webp",
+    "assets/kth/transactions/37213073e3154be18a319f315799508e.webp",
+    "assets/kth/transactions/b80d872b0e5344738cdfab307f353562.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "The Jovell, Flora Drive",
+   "area": "D17 \u00b7 Changi / Loyang",
+   "type": "Private",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/8a31f89ddf9949e7a0bfa2b584350d28.webp",
+    "assets/kth/transactions/7dc017118acc496b9c907ea0b6b23b24.webp",
+    "assets/kth/transactions/c69aab5c352c4b82b3bb801ef475ff17.webp",
+    "assets/kth/transactions/74b1a962095a4cc69bfc2dde884ed174.webp",
+    "assets/kth/transactions/c50520bf0729423395af29e69d559450.webp"
+   ],
+   "side": "seller",
+   "town": "Pasir Ris"
+  },
+  {
+   "title": "Kovan Regency, Kovan Rise",
+   "area": "D19 \u00b7 Hougang / Punggol / Sengkang",
+   "type": "Private",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/df619ae23a034fda903ff32e8b62ee4a.webp",
+    "assets/kth/transactions/8894295b11f549f489b619f6c0a65bd1.webp",
+    "assets/kth/transactions/257ff8169fbc4750836b084a746380f1.webp",
+    "assets/kth/transactions/df706a8013394139b05de0ddc0b0d4da.webp",
+    "assets/kth/transactions/8a7586e26d9d4ef2a99bb82e681b8e23.webp"
+   ],
+   "side": "seller",
+   "town": "Hougang (Kovan)"
+  },
+  {
+   "title": "Blk 578 Ang Mo Kio Ave 10",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/b99c3cc70e114ca18e8c66916d517ecd.webp",
+    "assets/kth/transactions/b7c626fe59ad496994cadc0268eceed5.webp",
+    "assets/kth/transactions/aef5108770864804a101d0feb3f1f461.webp",
+    "assets/kth/transactions/af04a4e1957c4198a5a1573ac4c60417.webp",
+    "assets/kth/transactions/97d87922749f4225a2517f16f3a2ad74.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 130B Lorong 1 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/1b70282af0c34c24bc36af7625274da0.webp",
+    "assets/kth/transactions/f6f7a81752a2438a8c745a44c43744b4.webp",
+    "assets/kth/transactions/1e0acae9a5164e758064686e3db84df8.webp",
+    "assets/kth/transactions/3d37f29e8c284718acfca21c9b1f8238.webp",
+    "assets/kth/transactions/4f57895e48e4491fbd860af83a3acb1c.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 504D Montreal Drive",
+   "area": "Sembawang",
+   "type": "HDB",
+   "status": "Bought",
+   "side": "buyer",
+   "photos": [
+    "assets/kth/transactions/a86e2bc2294b4868ab8d4f13a0d04ee5.webp",
+    "assets/kth/transactions/a78092f5b07244bda4d77160cd8cb842.webp"
+   ]
+  },
+  {
+   "title": "Citron Residences, Marne Road",
+   "area": "D08 \u00b7 Little India / Farrer Park",
+   "type": "Private",
+   "status": "Sold",
+   "side": "seller",
+   "photos": [
+    "assets/kth/transactions/6860408359d843c1b3c13432081456a5.webp",
+    "assets/kth/transactions/73aefa90006340e992604d069a1192ba.webp",
+    "assets/kth/transactions/8d85036dbf5541b2a3928d32bc845fa2.webp",
+    "assets/kth/transactions/14e1efbdbe74421e987d2e0cfbf74855.webp"
+   ],
+   "town": "Farrer Park"
+  },
+  {
+   "title": "Mimosa Park, Mimosa Road",
+   "area": "D28 \u00b7 Seletar / Yio Chu Kang",
+   "type": "Private",
+   "status": "Sold",
+   "side": "seller",
+   "photos": [
+    "assets/kth/transactions/157e585e44b74b27b9947b0ea713fc21.webp",
+    "assets/kth/transactions/574d92674a594a64879b5fec1b602705.webp",
+    "assets/kth/transactions/a2df582b366041e5b70fb1d0ceea76ac.webp",
+    "assets/kth/transactions/f1d00718bb5b40869850ec67757bca55.webp",
+    "assets/kth/transactions/5145a182d65a41968ba7a4de087e9c65.webp"
+   ],
+   "town": "Seletar Hills"
+  },
+  {
+   "title": "8 @ Woodleigh, Woodleigh Close",
+   "area": "D13 \u00b7 Macpherson / Potong Pasir",
+   "type": "Private",
+   "status": "Sold",
+   "side": "seller",
+   "photos": [
+    "assets/kth/transactions/f59a30df01b84484838b89c8993c64b8.webp",
+    "assets/kth/transactions/e96ca907942e4ba59d4dba7be57c935c.webp",
+    "assets/kth/transactions/05828ee52b914b65a9748226add90976.webp",
+    "assets/kth/transactions/2a67c933bb0a4bcc9ce1b4e9863d387c.webp"
+   ],
+   "town": "Toa Payoh"
+  },
+  {
+   "title": "Siglap V, First Street",
+   "area": "D15 \u00b7 Katong / Marine Parade",
+   "type": "Private",
+   "status": "Sold",
+   "side": "seller",
+   "photos": [
+    "assets/kth/transactions/4aeb2f2e5f5d41d1b522961c89882be8.webp",
+    "assets/kth/transactions/5e2af570d1254a80a761355d47be5e57.webp",
+    "assets/kth/transactions/8ea7aff5cbd34d038c61c428e9b02883.webp",
+    "assets/kth/transactions/663496aa16894c109f9103c9e2b120d2.webp"
+   ],
+   "town": "Bedok"
+  },
+  {
+   "title": "Derbyshire Heights, Derbyshire Road",
+   "area": "D11 \u00b7 Novena / Newton",
+   "type": "Private",
+   "status": "Sold",
+   "side": "seller",
+   "photos": [
+    "assets/kth/transactions/f067a9fb8b394d89b0d8208ab0af57f7.webp",
+    "assets/kth/transactions/0faf24611bd343e69ff9035de035042e.webp",
+    "assets/kth/transactions/df15aa80a65240518b85607d26a00ea3.webp",
+    "assets/kth/transactions/3855c5fda0574fed8142ab3ecaa81d7e.webp",
+    "assets/kth/transactions/c362cd30ac95453b87d191d9bffe3a99.webp"
+   ]
+  },
+  {
+   "title": "Leedon Green, Leedon Heights",
+   "area": "D10 \u00b7 Bukit Timah / Holland",
+   "type": "Private",
+   "status": "Bought",
+   "side": "buyer",
+   "note": "Developer images",
+   "photos": [
+    "assets/kth/transactions/e036fcd986eb48a5ad5228c147bd87c1.webp",
+    "assets/kth/transactions/20efbf1c7e8d4f5b8a4038e8f5aadd5d.webp",
+    "assets/kth/transactions/66acf5ffca124e7189b449346cc6fb12.webp"
+   ]
+  }
+ ]
+}

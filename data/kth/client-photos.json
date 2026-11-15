@@ -1,0 +1,53 @@
+{
+ "_how_to_add": "One object per photo: src (webp under assets/kth/client-photos/), w, h, alt. No client names in alt. Skip photos showing OTPs/contracts/NRIC/unit numbers/cheques.",
+ "photos": [
+  {
+   "src": "assets/kth/client-photos/cd3837ebbc3145e0b04816a0a8cb054f.webp",
+   "w": 1200,
+   "h": 900,
+   "alt": "Louis with happy clients"
+  },
+  {
+   "src": "assets/kth/client-photos/ef57ef50bedf4323abd58563026eab7c.webp",
+   "w": 1200,
+   "h": 900,
+   "alt": "Louis with happy clients"
+  },
+  {
+   "src": "assets/kth/client-photos/7dc21bf6aee5419a9d85eb68a3d0a647.webp",
+   "w": 900,
+   "h": 1200,
+   "alt": "Louis with happy clients"
+  },
+  {
+   "src": "assets/kth/client-photos/f092fca9a7e64be394e58d8e568077a6.webp",
+   "w": 1200,
+   "h": 900,
+   "alt": "Louis with happy clients"
+  },
+  {
+   "src": "assets/kth/client-photos/7e2ea25d83c44b668d4d86e445c566ad.webp",
+   "w": 900,
+   "h": 1200,
+   "alt": "Louis with happy clients"
+  },
+  {
+   "src": "assets/kth/client-photos/c53cd68906c04476b36c48ce686a5881.webp",
+   "w": 1200,
+   "h": 900,
+   "alt": "Louis with happy clients"
+  },
+  {
+   "src": "assets/kth/client-photos/bf30abd1e7914881b169638cf6741771.webp",
+   "w": 1200,
+   "h": 900,
+   "alt": "Louis with happy clients"
+  },
+  {
+   "src": "assets/kth/client-photos/d79e4ab07f3f4c7ea9aaeb4b8bc623ee.webp",
+   "w": 1200,
+   "h": 900,
+   "alt": "Louis with happy clients"
+  }
+ ]
+}

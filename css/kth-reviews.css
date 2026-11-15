@@ -1,0 +1,28 @@
+
+.rv-hero{padding:120px 6vw 30px;max-width:1200px;margin:auto}
+.rv-hero h1{font-size:clamp(40px,6vw,80px);margin:0 0 12px;line-height:1.02}
+.rv-hero p{color:#cbbfa9;font-size:18px;max-width:640px;line-height:1.6}
+.rv-sec{max-width:1200px;margin:auto;padding:24px 6vw}
+.rv-sec h2{font-size:clamp(28px,3.4vw,44px);margin:0 0 6px}
+.rv-sum{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 6px}
+.rv-sumc{border:1px solid rgba(214,159,26,.35);border-radius:16px;padding:14px 20px;background:#15120d;color:#efe6d4;text-decoration:none}
+.rv-sumc b{font-size:30px;color:#D69F1A;margin-right:8px}.rv-sumc small{display:block;color:#a99e88;margin-top:4px}
+.rv-filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.rv-chip{background:transparent;border:1px solid rgba(214,159,26,.5);color:#efe6d4;border-radius:999px;padding:8px 16px;font:inherit;font-size:14px;cursor:pointer}
+.rv-chip[aria-pressed=true]{background:#D69F1A;color:#14110C;border-color:#D69F1A}
+.rv-grid{align-items:flex-start}
+.rv-card{background:#15120d;border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px;color:#efe6d4;display:flex;flex-direction:column;gap:12px}
+.rv-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.rv-who{font-weight:700;font-size:17px}.rv-date{color:#a99e88;font-size:13px}
+.rv-badge{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:#D69F1A;color:#14110C;white-space:nowrap}
+.rv-badge.s-WhatsApp{background:#25D366}.rv-badge.s-PropertyGuru{background:#e5e1d8}.rv-badge.s-Google{background:#fff}.rv-badge.s-AppStore{background:#cfd8ff}
+.rv-stars{color:#D69F1A;letter-spacing:2px;font-size:16px}.rv-nostar{color:#8d836f;font-size:12px}
+.rv-title{font-weight:700;margin:0}
+.rv-text{margin:0;line-height:1.65;color:#ddd3bf;white-space:pre-line}
+.rv-text.clamp{display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
+.rv-more{background:none;border:0;color:#D69F1A;padding:0;font:inherit;font-size:14px;cursor:pointer;align-self:flex-start}
+.rv-src{font-size:13px;color:#a99e88}.rv-src a{color:#D69F1A}
+.rv-empty{border:1px dashed rgba(214,159,26,.5);border-radius:18px;padding:30px;text-align:center;color:#cbbfa9}
+.rv-add{border:1px dashed rgba(214,159,26,.45);border-radius:18px;padding:24px;color:#cbbfa9;line-height:1.6}
+.rv-add code{background:#1d1912;padding:2px 6px;border-radius:6px;color:#efe6d4}
+.rv-cta{text-align:center;padding:60px 6vw 90px}.rv-cta h2{font-size:clamp(28px,3.4vw,44px);margin:0 0 10px}.rv-cta p{color:#cbbfa9;margin:0 0 22px}

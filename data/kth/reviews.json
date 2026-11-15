@@ -1,0 +1,80 @@
+{
+ "_how_to_add": "Add one object per review to 'reviews'. name = first name or initials only. source = Google | PropertyGuru | WhatsApp | App Store. rating = 1-5 or null if the source doesn't show it. text = word for word, never edited. For WhatsApp: no phone numbers, no faces; set url to null and optionally 'image' to a cropped screenshot path under assets/kth/reviews/.",
+ "summary": [
+  {
+   "source": "PropertyGuru",
+   "rating": 4.9,
+   "count": 15,
+   "url": "https://www.propertyguru.com.sg/agent/louis-tay-104613",
+   "checked": "2026-11-04"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "W.S.S.",
+   "rating": null,
+   "date": "2024-12-06",
+   "source": "Google",
+   "via": "Google",
+   "url": "https://www.trustindex.io/reviews/ohmyhome.com-1",
+   "text": "I had a remarkable experience working with Louis Tay […] on my recent HDB sale! From start to finish, he ensured the entire process was smooth and worry-free. Louis's in-depth knowledge of the local market was invaluable, providing me with insights that allowed me to make confident, informed decisions. He was consistently available to address all my questions, no matter how small, and kept me well-informed every step of the way. Selling my home during a challenging market period could have been daunting, but Louis crafted a strategic plan that not only resulted in a quick sale but also achieved a price that exceeded my expectations. His negotiation skills were truly outstanding! Beyond his professionalism, Louis is genuinely kind and approachable. He always made me feel like a top priority, which I deeply appreciated. I wholeheartedly recommend Louis […] to anyone looking to buy or sell a property. […]"
+  },
+  {
+   "name": "E.C.",
+   "rating": null,
+   "date": "2024-12-01",
+   "source": "Google",
+   "via": "Google",
+   "url": "https://www.trustindex.io/reviews/ohmyhome.com-1",
+   "text": "I’m happy to engage Louis Tay to assist with our sale. We managed to sell at higher price and the best of all it only took us 1 viewing within 1 week of marketing. I’m super happy with the team."
+  },
+  {
+   "name": "L.F.K.",
+   "rating": null,
+   "date": "2024-11-24",
+   "source": "Google",
+   "via": "Google",
+   "url": "https://www.trustindex.io/reviews/ohmyhome.com-1",
+   "text": "Louis is a dedicated agent, he provides prompt update and excellent service."
+  },
+  {
+   "name": "L.M.C.",
+   "rating": null,
+   "date": "2024-11-24",
+   "source": "Google",
+   "via": "Google",
+   "url": "https://www.trustindex.io/reviews/ohmyhome.com-1",
+   "text": "I appreciated Louis for helping us to secure a record selling pring in our bulk within 1 viewing and allowing us to move on to our new BTO. He is nice and friendly."
+  },
+  {
+   "name": "H.",
+   "rating": 5,
+   "date": "2021-11-16",
+   "source": "App Store",
+   "via": "App Store",
+   "url": "https://apps.apple.com/sg/app/ohmyhome/id1112125972?see-all=reviews",
+   "title": "Thanks Louis Tay […]",
+   "text": "Would like to thank Louis Tay […] for his help in getting us our flat (we are the buyers). His value definitely shown through during the negotiation phase with the sellers, helping us to save costs (probably an amount higher than the costs of hiring […]).\n\n[…]\n\nThanks once again Louis, was a pleasure working with you!"
+  },
+  {
+   "name": "T.P.",
+   "rating": 5,
+   "date": "2020-07-14",
+   "source": "App Store",
+   "via": "App Store",
+   "url": "https://apps.apple.com/sg/app/ohmyhome/id1112125972?see-all=reviews",
+   "text": "I chanced upon a new listing on Property Guru and I enquired. Mr Louis Tay was the agent and he very quickly responded. This was during the Circuit Breaker. That weekend, he conducted a virtual tour for me and my partner. Louis was very approachable and we really appreciate his quick replies to all our queries. After viewing the flat, we made an offer and the OTP was immediately signed. No fuss, no hassle. When we told Louis we wanted to take a bank loan, he immediately referred us to his company’s mortgage specialist. \n\nThank you once again, Louis. We really love that flat and it was your quick response that all processes so far has been smooth sailing. 🙏🙏🙏"
+  }
+ ],
+ "_whatsapp_template": {
+  "name": "",
+  "rating": null,
+  "date": "YYYY-MM-DD",
+  "source": "WhatsApp",
+  "via": "WhatsApp message from client",
+  "url": null,
+  "image": null,
+  "text": ""
+ },
+ "note": "Some reviews lightly edited to remove a former agency's name."
+}
