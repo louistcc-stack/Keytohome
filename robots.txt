@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://louistcc-stack.github.io/Keytohome/sitemap.xml
