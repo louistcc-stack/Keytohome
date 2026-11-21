@@ -12,7 +12,7 @@ python3 -m http.server 8765
 
 Then open http://127.0.0.1:8765/
 
-While this is a preview, every page sends `noindex`.
+Live at https://keytohomes.sg (GitHub Pages, custom domain set by the CNAME file).
 
 ## Growth engine (calculator, guides, SEO)
 
