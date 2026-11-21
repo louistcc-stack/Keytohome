@@ -66,6 +66,9 @@ footer .kth-legal a{color:#D69F1A;text-decoration:underline;text-underline-offse
 }
 .wa-float svg{width:22px;height:22px;display:block}
 .wa-float:hover{background:#1ebe5d;color:#fff}
+.pill.wa,.btn.wa{background:#25D366!important;color:#fff!important;border-color:#25D366!important}
+.wa-band{max-width:1200px;margin:0 auto;padding:8px 6vw 28px;text-align:center}
+.wa-band p{margin:0 0 12px;color:var(--mute,#5C554C)}
 body.has-compare .wa-float{bottom:96px}
 footer{padding-bottom:108px}
 
