@@ -26,6 +26,7 @@ const btn=document.querySelector('.menu-btn'),nav=document.getElementById('nav')
 const bar=document.querySelector('header.nav');
 if(nav)a88Fill(nav);
 document.querySelectorAll('footer').forEach(footer=>{
+ if(document.body.classList.contains('lp'))return;
  if(footer.querySelector('.foot-links'))return;
  const links=document.createElement('nav');
  links.className='foot-links';
@@ -53,7 +54,7 @@ if(!document.querySelector('.wa-float')){
 }
 document.querySelectorAll('a[href^="https://wa.me/"]').forEach(a=>{a.href=a.href.replace(/wa\.me\/\d+/,'wa.me/'+KTH_WHATSAPP)});
 const A88_LABELS={goal:'Goal',name:'Name',phone:'Mobile',email:'Email',hdbType:'HDB type',town:'Town',timeline:'Timeline',address:'Property address',unit:'Unit no.',type:'Property type',topic:'Interested in',message:'Message',project:'Project / address',intent:'Buying, selling or upgrading',calc:'Calculator snapshot'};
-document.querySelectorAll('form.a88-lead').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();
+document.querySelectorAll('form.a88-lead').forEach(f=>f.addEventListener('submit',e=>{if(window.LEAD_HANDLES_FORMS)return;e.preventDefault();
  const d=new FormData(f),note=f.querySelector('.form-note');const say=(t,c)=>{note.hidden=false;note.textContent=t;note.style.color=c};
  const name=(d.get('name')||'').trim(),phone=(d.get('phone')||'').trim();
  if(!name||!/^[+\d][\d\s-]{6,}$/.test(phone)){say('Please add your name and a valid mobile number.','#b42318');return}
