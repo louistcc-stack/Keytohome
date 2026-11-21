@@ -41,16 +41,20 @@ TOWNS = [
 
 
 def card(t):
-    img = t["photos"][0]
     tag = "tr-tag tr-tag-buy" if t.get("side") == "buyer" else "tr-tag"
-    return (f'<article class="tr-card"><div class="tr-car"><img src="{img}" alt="{escape(t["title"])}" width="1200" height="900" loading="lazy" '
-            f'style="width:100%;height:100%;object-fit:cover"><span class="{tag}">{t["status"].upper()}</span></div>'
+    if t.get("photos"):
+        media = (f'<div class="tr-car"><img src="{t["photos"][0]}" alt="{escape(t["title"])}" width="1200" height="900" loading="lazy" '
+                 f'style="width:100%;height:100%;object-fit:cover">')
+    else:
+        blk = escape(t["title"].removeprefix("Blk ").split(" ")[0])
+        media = f'<div class="tr-car tr-ph"><span class="tr-ph-k" aria-hidden="true">Blk {blk}</span>'
+    return (f'<article class="tr-card">{media}<span class="{tag}">{t["status"].upper()}</span></div>'
             f'<div class="tr-body"><h3>{escape(t["title"])}</h3><p>{escape(t["area"])} · HDB resale · {"Buyer" if t.get("side") == "buyer" else "Seller"} side</p></div></article>')
 
 
 def build(c):
     town, path = c["town"], c["slug"] + ".html"
-    deals = [t for t in DEALS if t["area"] == town]
+    deals = sorted((t for t in DEALS if t["area"] == town), key=lambda t: not t.get("photos"))
     sold = sum(1 for t in deals if t.get("side") != "buyer")
     bought = len(deals) - sold
     count_line = f"{sold} sold" + (f" and {bought} bought" if bought else "")
