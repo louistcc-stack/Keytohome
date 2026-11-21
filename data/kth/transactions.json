@@ -111,7 +111,7 @@
   },
   {
    "title": "Le Regal, Geylang Road",
-   "area": "D14 \u00b7 Geylang / Eunos",
+   "area": "D14 · Geylang / Eunos",
    "type": "Private",
    "status": "Sold",
    "photos": [
@@ -126,7 +126,7 @@
   },
   {
    "title": "Le Regal, Geylang Road",
-   "area": "D14 \u00b7 Geylang / Eunos",
+   "area": "D14 · Geylang / Eunos",
    "type": "Private",
    "status": "Sold",
    "photos": [
@@ -153,7 +153,7 @@
   },
   {
    "title": "Parc Life, Sembawang Crescent",
-   "area": "D27 \u00b7 Yishun / Sembawang",
+   "area": "D27 · Yishun / Sembawang",
    "type": "Private",
    "status": "Sold",
    "photos": [
@@ -168,7 +168,7 @@
   },
   {
    "title": "Parc Life, Sembawang Crescent",
-   "area": "D27 \u00b7 Yishun / Sembawang",
+   "area": "D27 · Yishun / Sembawang",
    "type": "Private",
    "status": "Sold",
    "photos": [
@@ -274,7 +274,7 @@
   },
   {
    "title": "The Jovell, Flora Drive",
-   "area": "D17 \u00b7 Changi / Loyang",
+   "area": "D17 · Changi / Loyang",
    "type": "Private",
    "status": "Sold",
    "photos": [
@@ -289,7 +289,7 @@
   },
   {
    "title": "Kovan Regency, Kovan Rise",
-   "area": "D19 \u00b7 Hougang / Punggol / Sengkang",
+   "area": "D19 · Hougang / Punggol / Sengkang",
    "type": "Private",
    "status": "Sold",
    "photos": [
@@ -343,7 +343,7 @@
   },
   {
    "title": "Citron Residences, Marne Road",
-   "area": "D08 \u00b7 Little India / Farrer Park",
+   "area": "D08 · Little India / Farrer Park",
    "type": "Private",
    "status": "Sold",
    "side": "seller",
@@ -357,7 +357,7 @@
   },
   {
    "title": "Mimosa Park, Mimosa Road",
-   "area": "D28 \u00b7 Seletar / Yio Chu Kang",
+   "area": "D28 · Seletar / Yio Chu Kang",
    "type": "Private",
    "status": "Sold",
    "side": "seller",
@@ -372,7 +372,7 @@
   },
   {
    "title": "8 @ Woodleigh, Woodleigh Close",
-   "area": "D13 \u00b7 Macpherson / Potong Pasir",
+   "area": "D13 · Macpherson / Potong Pasir",
    "type": "Private",
    "status": "Sold",
    "side": "seller",
@@ -386,7 +386,7 @@
   },
   {
    "title": "Siglap V, First Street",
-   "area": "D15 \u00b7 Katong / Marine Parade",
+   "area": "D15 · Katong / Marine Parade",
    "type": "Private",
    "status": "Sold",
    "side": "seller",
@@ -400,7 +400,7 @@
   },
   {
    "title": "Derbyshire Heights, Derbyshire Road",
-   "area": "D11 \u00b7 Novena / Newton",
+   "area": "D11 · Novena / Newton",
    "type": "Private",
    "status": "Sold",
    "side": "seller",
@@ -414,7 +414,7 @@
   },
   {
    "title": "Leedon Green, Leedon Heights",
-   "area": "D10 \u00b7 Bukit Timah / Holland",
+   "area": "D10 · Bukit Timah / Holland",
    "type": "Private",
    "status": "Bought",
    "side": "buyer",
@@ -424,6 +424,225 @@
     "assets/kth/transactions/20efbf1c7e8d4f5b8a4038e8f5aadd5d.webp",
     "assets/kth/transactions/66acf5ffca124e7189b449346cc6fb12.webp"
    ]
+  },
+  {
+   "title": "Blk 141 Lorong 2 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/29da012923ad4c09ba0826a91da9db47.webp",
+    "assets/kth/transactions/cf26728115e44b0e8fd1ffe09a54064e.webp",
+    "assets/kth/transactions/48c9a044ccd546bd955be41baf39b09f.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 217 Lorong 8 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/17c1c005889f4558b7df62edf7ffd3b6.webp",
+    "assets/kth/transactions/f7e55545854141c39789a35ae2712e2c.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 219 Lor 8 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/9edc0336bf93496fbae8575741d7ef76.webp",
+    "assets/kth/transactions/66b363bce7954b9090d80f1a727a3d71.webp",
+    "assets/kth/transactions/4bd9093ff8ff4ef3816b67ef6d3f731b.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 138C Lorong 1A Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/928660bc4f3f4f108c1366ef261129a0.webp",
+    "assets/kth/transactions/cf1c567d1c584873b6d7c675759b0cf2.webp",
+    "assets/kth/transactions/b4adee54425441a8965ba5e9d5255b0e.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 157 Lorong 1 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/5493d7f0b47547fcaa8801828b55c4b5.webp",
+    "assets/kth/transactions/2f65e167bf2c48658f2011e5ec4e63dd.webp",
+    "assets/kth/transactions/d3bd1480ba4848bd9d8ffeaa46bc33fe.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 141 Lorong 2 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/c190a3667467436084843824b9f2e1da.webp",
+    "assets/kth/transactions/f3d584ba72ca4a6aae1bdf544e611655.webp",
+    "assets/kth/transactions/efb9ad4bb0374ca9923bbb997ce41d28.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 3 Lorong 7 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/5bc41c3d203a4824919926fffb5571c8.webp",
+    "assets/kth/transactions/a1d76b16c6af4c2b8b165dcd5650788b.webp",
+    "assets/kth/transactions/bd7845566e7740cd9118d8695c2b0cbb.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 79A Toa Payoh Central",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/5a386cfd228d476498ddb300080e58d4.webp",
+    "assets/kth/transactions/e4e0984ed42441bb9823bb0119bf9ca2.webp",
+    "assets/kth/transactions/56d73dde75654b0a89c24b3ed57cf53a.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 171 Lorong 1 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/61427d6d325b4710894a4d4ebe48b676.webp",
+    "assets/kth/transactions/5a1d17fb9d164ba78f6a12dba2e69080.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 159 Lorong 1 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/ce2651fad0904632b2e327884f37f3a9.webp",
+    "assets/kth/transactions/254cab0c17844842aa113c24095049d6.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 46 Lorong 5 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/846eddd49c5b4e419263f73a99fe5061.webp",
+    "assets/kth/transactions/a71fb2fccd574dfd8afc4465a56f5840.webp",
+    "assets/kth/transactions/8d10a1b602ee439c9e95f4ef7675e199.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 226 Lorong 8 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/c0d1e199952f4ce7800c7947efa20542.webp",
+    "assets/kth/transactions/f014346aea0d43ae8b0728c38f6d2f11.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 139A Lorong 1A Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/c80213924bd14183a450f942bba07ae4.webp",
+    "assets/kth/transactions/558ba15cf2cc4fcbb7081bd3932bcded.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 79E Toa Payoh Central",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/c79604c59dc64fda8b9f5aa76ec41d4a.webp",
+    "assets/kth/transactions/4fd28a00b9d34ef2ab6f00a40f52748f.webp",
+    "assets/kth/transactions/f7e1c65c29754c80b00ac21006bb52ab.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 144 Lorong 2 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/ec123c536c8f472bb2d5aa3f01772058.webp",
+    "assets/kth/transactions/052688e26424445eacda6c6d94f8db16.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 146 Lorong 2 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/546c5553a6c74c359c164e00f93c8e82.webp",
+    "assets/kth/transactions/6d0e88055af649dd824966812b5d9c3a.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 145 Lorong 2 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/407ef08a94c54901893d1435c0ddb13b.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 154 Lorong 2 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/869d1f7dad4e4f139feac132edc16221.webp",
+    "assets/kth/transactions/6aebaec7938a4a13b9cf112ca0f0a97d.webp",
+    "assets/kth/transactions/aa72673b92274dc9941744e37d9bb410.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 233 Lorong 8 Toa Payoh",
+   "area": "Toa Payoh",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/749edb79a9e94c63b58e2cb717e1a60e.webp",
+    "assets/kth/transactions/85c08ec393f645f486369d62bd027a5d.webp",
+    "assets/kth/transactions/fb1f1e246c934486b56ac980a2fe6c45.webp"
+   ],
+   "side": "seller"
   }
  ]
 }

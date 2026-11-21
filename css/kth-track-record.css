@@ -54,3 +54,7 @@
  .nh.compact .nh-card{width:100%;max-width:220px}
 }
 @media(prefers-reduced-motion:reduce){.nh{opacity:1;transform:none;transition:none}}
+
+/* Deals without photos: show the block number on a quiet panel */
+.tr-ph{background:linear-gradient(160deg,#EADFCC,#D9CBB3);display:flex;align-items:center;justify-content:center}
+.tr-ph-k{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;color:#6E520C;opacity:.85}
