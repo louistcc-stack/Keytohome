@@ -4,4 +4,4 @@
 var KTH_WHATSAPP = '6581668767';
 // Optional: an email address to also receive form leads via FormSubmit (formsubmit.co).
 // Leave empty ('') to send leads to WhatsApp only.
-var KTH_EMAIL = '';
+var KTH_EMAIL = 'louistcc@gmail.com';
