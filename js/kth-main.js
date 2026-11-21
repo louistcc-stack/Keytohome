@@ -7,10 +7,13 @@ const A88_NAV=[
  {label:'New Launches',page:'launches.html'},
  {label:'Valuation',page:'valuation.html'},
  {label:'OCTA Score',page:'octa-score.html'},
+ {label:'Calculator',page:'hdb-upgrade-calculator.html'},
+ {label:'Guides',page:'guides/'},
  {label:'Contact',page:'contact.html'}
 ];
-function a88Page(){const file=(location.pathname.split('/').pop()||'index.html');return file||'index.html'}
-function a88Href(item){return a88Page()==='index.html'&&item.hash?item.hash:item.page+(item.hash||'')}
+const A88_BASE=document.documentElement.dataset.base||'';
+function a88Page(){const parts=location.pathname.split('/');const file=parts.pop()||'index.html';const dir=parts.pop();if(dir==='guides')return 'guides/';return file}
+function a88Href(item){return a88Page()==='index.html'&&item.hash?item.hash:A88_BASE+item.page+(item.hash||'')}
 function a88Current(item){const here=a88Page();return item.hash?here==='index.html'&&location.hash===item.hash:here===item.page}
 function a88Fill(root){
  root.replaceChildren();
