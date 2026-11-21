@@ -5,7 +5,7 @@ Edit the content in tools/build_pages.py, then re-run. The output is plain HTML,
 """
 import json
 
-SITE = "https://louistcc-stack.github.io/Keytohome"   # tools/go-live.py rewrites this to your own domain
+SITE = "https://keytohomes.sg"   # tools/go-live.py rewrites this to your own domain
 WA = "6581668767"
 AGENT = {
     "@type": "RealEstateAgent",
@@ -39,7 +39,6 @@ def head(title, desc, path, extra_css=(), schema=(), base=""):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <meta name="theme-color" content="#F3ECE0">
