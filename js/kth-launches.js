@@ -1,5 +1,5 @@
 (function(){
-const WA=KTH_WHATSAPP;
+const WA=(window.SITE&&SITE.WA_NUMBER)||KTH_WHATSAPP;
 const VIEWS=['pipeline','grid','list','map'];
 const STATUS_ORDER=['Upcoming','Preview','Just Launched','Selling','Sold Out','Recently Launched'];
 const PRICE_BANDS=[

@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Home valuation | Key To Home</title>
-<meta name="description" content="Upgrading from HDB? Get an honest price range for your flat from Louis Tay before you look at a new launch.">
+<meta name="description" content="Upgrading from HDB? Get an indicative price range for your flat from Louis Tay, based on recent transactions. Not a formal valuation.">
 <meta name="theme-color" content="#F3ECE0">
 <meta property="og:site_name" content="Key To Home">
 <meta property="og:title" content="Home valuation | Key To Home">
-<meta property="og:description" content="Upgrading from HDB? Get an honest price range for your flat from Louis Tay before you look at a new launch.">
+<meta property="og:description" content="Upgrading from HDB? Get an indicative price range for your flat from Louis Tay, based on recent transactions. Not a formal valuation.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://louistcc-stack.github.io/Keytohome/valuation.html">
 <meta property="og:image" content="https://louistcc-stack.github.io/Keytohome/assets/kth/logo-key-to-home-charcoal-gold.png">
@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="css/kth-beige.css">
 <link rel="stylesheet" href="css/kth-pages.css">
 </head>
-<body>
+<body data-segment="valuation" data-ref="valuation">
 <header class="nav">
 <a class="brand" href="index.html"><img src="assets/kth/logo-key-to-home-charcoal-gold.png" alt="Key To Home" height="44"></a>
 <div class="nav-right">
@@ -35,7 +35,9 @@
 <section class="vhero">
 <div>
 <h1>PLANNING YOUR<br>NEXT MOVE<span>.</span></h1>
-<p class="lead">Upgrading from HDB to a new launch? Let's do the maths first. Start with an honest price range for your flat.</p>
+<p class="lead">Upgrading from HDB to a new launch? Let's do the maths first. I'll share an indicative range from recent transactions.</p>
+<p class="indicative-note">Indicative only, based on recent transactions. Not a formal valuation.</p>
+<p class="offer-links"><a href="hdb-valuation.html">HDB valuation</a><a href="condo-valuation.html">Condo valuation</a><a href="hdb-upgrader.html">HDB upgrader</a><a href="free-consultation.html">Free consultation</a></p>
 <div class="cta">
 <a class="btn gold" href="#val-form">Get my free assessment</a>
 <a class="btn ghost" href="https://wa.me/6581668767?text=Hi%20Louis%2C%20I%27m%20thinking%20of%20upgrading%20from%20HDB.%20Could%20I%20get%20a%20price%20range%20for%20my%20flat%3F" target="_blank" rel="noopener">WhatsApp me</a>
@@ -64,7 +66,7 @@
 <div class="field"><label for="v-unit">Unit no.</label><input id="v-unit" name="unit" placeholder="#05-123" autocomplete="off"></div>
 </div>
 <div class="field"><label for="v-type">Property type</label><select id="v-type" name="type"><option>HDB</option><option>Condo / EC</option><option>Landed</option><option>Not sure yet</option></select></div>
-<label class="consent"><input type="checkbox" name="consent" required> <span>I agree that Louis Tay (Huttons Asia Pte Ltd) may contact me about my enquiry and use my details in line with the PDPA.</span></label>
+<label class="consent"><input type="checkbox" name="consent" required> <span>By submitting, you agree to Louis Tay / Huttons Asia Pte Ltd contacting you about your enquiry and handling your data in line with the PDPA.</span></label>
 <button class="btn gold" type="submit">Get my free assessment</button>
 <p class="form-note" aria-live="polite"></p>
 </form>
@@ -72,10 +74,13 @@
 </main>
 <footer>
 <div class="fl"><img src="assets/kth/logo-key-to-home-gold.png" alt="Key To Home"><p class="kth-tag" style="margin:10px 0 0;font-size:20px">Every key unlocks a new beginning.</p></div>
-<p class="legal kth-legal">Louis Tay · CEA R000567G · Huttons Asia Pte Ltd (L3008899K)<br><a href="mailto:louistcc@gmail.com">louistcc@gmail.com</a></p>
+<p class="legal kth-legal">Louis Tay · CEA Reg. R000567G · Huttons Asia Pte Ltd · Licence L3008899K · <a href="tel:+6581668767">+65 8166 8767</a><br><a href="mailto:louistcc@gmail.com">louistcc@gmail.com</a></p>
 </footer>
+<script src="js/site-config.js"></script>
+<script src="js/analytics.js"></script>
 <script src="js/kth-config.js"></script>
 <script src="js/kth-main.js"></script>
+<script src="js/lead.js"></script>
 <script>(function(){var v=document.getElementById("kth-vid"),b=document.getElementById("kth-sound");if(!v||!b)return;b.addEventListener("click",function(){v.muted=!v.muted;if(!v.muted){v.currentTime=0;v.play()}b.setAttribute("aria-pressed",String(!v.muted));b.setAttribute("aria-label",v.muted?"Turn sound on":"Turn sound off");b.querySelector("span").textContent=v.muted?"Sound on":"Sound off";b.classList.toggle("is-on",!v.muted)})})();</script>
 </body>
 </html>

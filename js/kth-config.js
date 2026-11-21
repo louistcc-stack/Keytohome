@@ -1,7 +1,3 @@
-// ===== Key To Home settings =====
-// CHANGE THIS to your own WhatsApp number (country code + number, no + or spaces).
-// Every WhatsApp button and form on valuation.html, octa-score.html and launches.html uses it.
-var KTH_WHATSAPP = '6581668767';
-// Optional: an email address to also receive form leads via FormSubmit (formsubmit.co).
-// Leave empty ('') to send leads to WhatsApp only.
+// The WhatsApp number lives in js/site-config.js. This file only keeps the old name.
+var KTH_WHATSAPP = (window.SITE && SITE.WA_NUMBER) || '6581668767';
 var KTH_EMAIL = '';
