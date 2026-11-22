@@ -140,18 +140,6 @@
    "town": "Geylang"
   },
   {
-   "title": "Blk 227A Ang Mo Kio St 23",
-   "area": "Ang Mo Kio",
-   "type": "HDB",
-   "status": "Bought",
-   "photos": [
-    "assets/kth/transactions/a5434bc8e49e4e09a929bdc8fdbc4c74.webp",
-    "assets/kth/transactions/d4c9dea2d8624d02add5a36f0284384e.webp",
-    "assets/kth/transactions/35704cdaf6084b88b72878398a42818b.webp"
-   ],
-   "side": "buyer"
-  },
-  {
    "title": "Parc Life, Sembawang Crescent",
    "area": "D27 · Yishun / Sembawang",
    "type": "Private",
@@ -643,6 +631,104 @@
     "assets/kth/transactions/fb1f1e246c934486b56ac980a2fe6c45.webp"
    ],
    "side": "seller"
+  },
+  {
+   "title": "Blk 211 Ang Mo Kio Ave 3",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/aefe0aad94304283ac40b60773c510fb.webp",
+    "assets/kth/transactions/97352846a1c442bdb0428cd50a5c6102.webp",
+    "assets/kth/transactions/fb6e03e15875403482fa14d5506ca70c.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 462 Ang Mo Kio Ave 10",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/43bb4cb391be49579dc7f0513f7e9fed.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 587 Ang Mo Kio Ave 3",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/31c7f74b22194276a1da6b6041eab8bb.webp",
+    "assets/kth/transactions/2d88ed44fd3344f3804dc859584cb0e8.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 213 Ang Mo Kio Ave 3",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/a2c4cc94b33c42d2a63e0a84369aef1c.webp",
+    "assets/kth/transactions/88fc2f7a50b343d28256f17dc3abf0f4.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 129 Ang Mo Kio Ave 3",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/333dbd5c36c04444973ecd3bc53bb7f4.webp",
+    "assets/kth/transactions/ae981f10f1d745d5ae1cbef932b180c2.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 646 Ang Mo Kio Ave 6",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/c6b9b105b9274b4bb119871f1065384d.webp",
+    "assets/kth/transactions/8552084239e2413cbb4d139e9fc16ba3.webp",
+    "assets/kth/transactions/169c5b08236b4e159692a27dcba6853a.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 208 Ang Mo Kio Ave 1",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/d5e03b4132954f2ea9d901cad9e61d15.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 308A Ang Mo Kio Ave 1",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Sold",
+   "photos": [
+    "assets/kth/transactions/2c126063f8f74b5491ea104bca749470.webp",
+    "assets/kth/transactions/8e71fb16e2e6473d8b38b1ba99405032.webp"
+   ],
+   "side": "seller"
+  },
+  {
+   "title": "Blk 227A Ang Mo Kio St 23",
+   "area": "Ang Mo Kio",
+   "type": "HDB",
+   "status": "Bought",
+   "photos": [
+    "assets/kth/transactions/a5434bc8e49e4e09a929bdc8fdbc4c74.webp"
+   ],
+   "side": "buyer"
   }
  ]
 }
