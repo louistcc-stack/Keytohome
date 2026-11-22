@@ -37,6 +37,26 @@ TOWNS = [
             ("Can I sell my Toa Payoh flat and upgrade to a condo?", "Yes, once your flat has met its minimum occupation period. Work out your cash from the sale first. My HDB upgrade calculator shows it in a minute, and my guides cover whether to sell first or buy first."),
         ],
     ),
+    dict(
+        town="Ang Mo Kio", slug="sell-hdb-ang-mo-kio",
+        title="Selling your HDB flat in Ang Mo Kio | Louis Tay, Key To Home",
+        desc="Selling your HDB flat in Ang Mo Kio? See the Ang Mo Kio homes Louis Tay has sold, what buyers ask about, and get an honest price range.",
+        lead="From Ave 1 to Ave 10 and St 51, I've helped Ang Mo Kio families sell and buy. Here is what I've learned about selling in this estate, and how to get a fair price range for yours.",
+        buyers="""
+<p>Ang Mo Kio is a mature estate with a long-settled community, and buyers here weigh three things most.</p>
+<ul>
+<li><strong>The remaining lease.</strong> Many Ang Mo Kio blocks are decades old. A buyer can use their CPF in full, and take the full HDB loan, only if the lease left covers the youngest buyer to age 95. If it doesn't, their CPF use is pro-rated, so I check this before we set a price.</li>
+<li><strong>Getting around.</strong> Buyers ask how far the block is from Ang Mo Kio, Yio Chu Kang or Mayflower MRT, and from AMK Hub and the bus interchange.</li>
+<li><strong>Layout and condition.</strong> Older Ang Mo Kio flats are often roomier than newer ones. Bright photos of the living room, and an honest note on what needs work, bring in serious viewers.</li>
+</ul>""",
+        take="Ang Mo Kio buyers are often families who grew up here and want to stay near their parents. When the price respects the lease, they move fast.",
+        faqs=[
+            ("How much is my HDB flat in Ang Mo Kio worth?", "It depends on the block, floor, lease left, size and condition. Recent sales in the same block are the best guide. Send me your block and unit type and I'll give you an honest price range based on recent transactions, free."),
+            ("Do older Ang Mo Kio flats still sell?", "Yes. The buyer pool is different. Buyers whose age and the lease left don't reach 95 can only use part of their CPF, so they need more cash. Pricing with that in mind is what gets an older flat sold."),
+            ("How long does it take to sell an HDB flat in Ang Mo Kio?", "You register an Intent to Sell and wait 7 days before you can grant an option. After that it depends on price and demand. Then HDB processes the resale application. I'll give you a timeline for your block when we talk."),
+            ("Can I sell my Ang Mo Kio flat and upgrade to a condo?", "Yes, once your flat has met its minimum occupation period. Work out your cash from the sale first. My HDB upgrade calculator shows it in a minute, and my guides cover whether to sell first or buy first."),
+        ],
+    ),
 ]
 
 
