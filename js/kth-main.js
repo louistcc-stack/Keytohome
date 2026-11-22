@@ -1,46 +1,53 @@
 
 const A88_NAV=[
- {label:'Home',page:'index.html'},
  {label:'About',page:'about.html'},
  {label:'Track Record',page:'track-record.html'},
  {label:'Reviews',page:'reviews.html'},
  {label:'New Launches',page:'launches.html'},
- {label:'Valuation',page:'valuation.html'},
- {label:'OCTA Score',page:'octa-score.html'},
- {label:'Calculator',page:'hdb-upgrade-calculator.html'},
- {label:'Guides',page:'guides/'},
- {label:'Contact',page:'contact.html'}
+ {label:'Free Tools',children:[
+  {label:'Home Valuation',page:'valuation.html'},
+  {label:'Upgrade Calculator',page:'hdb-upgrade-calculator.html'},
+  {label:'Octa Score',page:'octa-score.html'}
+ ]},
+ {label:'Guides',page:'guides/'}
 ];
+const A88_FOOT=[{label:'Home',page:'index.html'}].concat(A88_NAV.flatMap(i=>i.children||[i]),[{label:'Contact',page:'contact.html'}]);
 const A88_BASE=document.documentElement.dataset.base||'';
 function a88Page(){const parts=location.pathname.split('/');const file=parts.pop()||'index.html';const dir=parts.pop();if(dir==='guides')return 'guides/';return file}
 function a88Href(item){return a88Page()==='index.html'&&item.hash?item.hash:A88_BASE+item.page+(item.hash||'')}
 function a88Current(item){const here=a88Page();return item.hash?here==='index.html'&&location.hash===item.hash:here===item.page}
-function a88Fill(root){
+function a88Link(item){const a=document.createElement('a');a.href=a88Href(item);a.textContent=item.label;if(a88Current(item))a.setAttribute('aria-current','page');return a}
+function a88Fill(root,items){
  root.replaceChildren();
- A88_NAV.forEach(item=>{
-  const a=document.createElement('a');
-  a.href=a88Href(item);
-  a.textContent=item.label;
-  if(a88Current(item))a.setAttribute('aria-current','page');
-  root.append(a);
+ (items||A88_FOOT).forEach(item=>{
+  if(!item.children){root.append(a88Link(item));return}
+  const wrap=document.createElement('div');wrap.className='nav-dd';
+  const b=document.createElement('button');b.type='button';b.className='nav-dd-btn';b.setAttribute('aria-expanded','false');
+  b.innerHTML=item.label+'<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>';
+  if(item.children.some(a88Current))b.classList.add('is-current');
+  const m=document.createElement('div');m.className='nav-dd-menu';item.children.forEach(c=>m.append(a88Link(c)));
+  b.addEventListener('click',e=>{e.stopPropagation();const o=wrap.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  wrap.append(b,m);root.append(wrap);
  });
 }
+document.addEventListener('click',()=>document.querySelectorAll('.nav-dd.open').forEach(w=>{w.classList.remove('open');w.querySelector('button').setAttribute('aria-expanded','false')}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.nav-dd.open').forEach(w=>{w.classList.remove('open');w.querySelector('button').setAttribute('aria-expanded','false');w.querySelector('button').focus()})});
 const btn=document.querySelector('.menu-btn'),nav=document.getElementById('nav');
 const bar=document.querySelector('header.nav');
-if(nav)a88Fill(nav);
+if(nav)a88Fill(nav,A88_NAV);
 document.querySelectorAll('footer').forEach(footer=>{
  if(footer.querySelector('.foot-links'))return;
  const links=document.createElement('nav');
  links.className='foot-links';
  links.setAttribute('aria-label','Pages');
- a88Fill(links);
+ a88Fill(links,A88_FOOT);
  const legal=footer.querySelector('.legal');
  footer.insertBefore(links,legal);
 });
 function paintNav(){if(bar)bar.classList.toggle('scrolled',window.scrollY>8)}
 paintNav();
 addEventListener('scroll',paintNav,{passive:true});
-addEventListener('hashchange',()=>{if(nav)a88Fill(nav);document.querySelectorAll('.foot-links').forEach(a88Fill)});
+addEventListener('hashchange',()=>{if(nav)a88Fill(nav,A88_NAV);document.querySelectorAll('.foot-links').forEach(a88Fill)});
 btn&&btn.addEventListener('click',()=>{const o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
 nav&&nav.addEventListener('click',e=>{if(e.target.closest('a')){nav.classList.remove('open');btn&&btn.setAttribute('aria-expanded','false')}});
 const A88_WA=KTH_WHATSAPP,A88_MAIL=KTH_EMAIL?'https://formsubmit.co/ajax/'+KTH_EMAIL:'';

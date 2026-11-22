@@ -96,3 +96,21 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   .nav{padding:12px 4vw}
   .nav .pill{padding:8px 10px}
 }
+
+/* Main menu: fewer top-level items, tools grouped in one dropdown */
+.nav nav{gap:22px}
+.nav-dd{position:relative}
+.nav-dd-btn{display:inline-flex;align-items:center;gap:5px;background:none;border:0;padding:0;font:inherit;letter-spacing:inherit;text-transform:inherit;color:var(--ink,#1C1917);cursor:pointer}
+.nav-dd-btn svg{width:11px;height:11px;transition:transform .15s}
+.nav-dd.open .nav-dd-btn svg{transform:rotate(180deg)}
+.nav-dd-btn.is-current{color:var(--gold-ink,#6E520C)}
+.nav-dd-menu{display:none;position:absolute;top:calc(100% + 14px);left:-16px;min-width:210px;background:#FAF6EE;border:1px solid var(--tan,#C4B49A);border-radius:12px;padding:8px;box-shadow:0 14px 30px rgba(28,25,23,.12);flex-direction:column;gap:2px}
+.nav-dd.open .nav-dd-menu{display:flex}
+.nav-dd-menu a{padding:10px 12px;border-radius:8px;text-transform:none;letter-spacing:0;font-size:14px;font-weight:600}
+.nav-dd-menu a:hover,.nav-dd-menu a:focus-visible{background:#F3ECE0}
+@media(max-width:1100px){
+  .nav-dd-btn{pointer-events:none;color:var(--mute,#5C554C)!important;font-size:11px}
+  .nav-dd-btn svg{display:none}
+  .nav-dd-menu{display:flex;position:static;box-shadow:none;border:0;background:none;padding:8px 0 0 12px;min-width:0}
+  .nav-dd-menu a{padding:6px 0;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+}

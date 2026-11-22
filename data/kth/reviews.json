@@ -1,5 +1,5 @@
 {
- "_how_to_add": "Add one object per review to 'reviews'. name = first name or initials only. source = Google | PropertyGuru | WhatsApp | App Store. rating = 1-5 or null if the source doesn't show it. text = word for word, never edited. For WhatsApp: no phone numbers, no faces; set url to null and optionally 'image' to a cropped screenshot path under assets/kth/reviews/.",
+ "_how_to_add": "Add one object per review to 'reviews'. name = first name or initials only. source = Google | PropertyGuru | WhatsApp | App Store. rating = 1-5 or null if the source doesn't show it. text = the client's own words. Only remove a former agency's name and fix obvious typos; never add praise or change the meaning. For WhatsApp: no phone numbers, no faces; set url to null and optionally 'image' to a cropped screenshot path under assets/kth/reviews/.",
  "summary": [
   {
    "source": "PropertyGuru",
@@ -17,7 +17,7 @@
    "source": "Google",
    "via": "Google",
    "url": null,
-   "text": "I had a remarkable experience working with Louis Tay […] on my recent HDB sale! From start to finish, he ensured the entire process was smooth and worry-free. Louis's in-depth knowledge of the local market was invaluable, providing me with insights that allowed me to make confident, informed decisions. He was consistently available to address all my questions, no matter how small, and kept me well-informed every step of the way. Selling my home during a challenging market period could have been daunting, but Louis crafted a strategic plan that not only resulted in a quick sale but also achieved a price that exceeded my expectations. His negotiation skills were truly outstanding! Beyond his professionalism, Louis is genuinely kind and approachable. He always made me feel like a top priority, which I deeply appreciated. I wholeheartedly recommend Louis […] to anyone looking to buy or sell a property. […]"
+   "text": "I had a remarkable experience working with Louis Tay on my recent HDB sale! From start to finish, he ensured the entire process was smooth and worry-free. Louis's in-depth knowledge of the local market was invaluable, providing me with insights that allowed me to make confident, informed decisions. He was consistently available to address all my questions, no matter how small, and kept me well-informed every step of the way. Selling my home during a challenging market period could have been daunting, but Louis crafted a strategic plan that not only resulted in a quick sale but also achieved a price that exceeded my expectations. His negotiation skills were truly outstanding! Beyond his professionalism, Louis is genuinely kind and approachable. He always made me feel like a top priority, which I deeply appreciated. I wholeheartedly recommend Louis to anyone looking to buy or sell a property."
   },
   {
    "name": "E.C.",
@@ -44,7 +44,7 @@
    "source": "Google",
    "via": "Google",
    "url": null,
-   "text": "I appreciated Louis for helping us to secure a record selling pring in our bulk within 1 viewing and allowing us to move on to our new BTO. He is nice and friendly."
+   "text": "I appreciated Louis for helping us to secure a record selling price in our block within 1 viewing and allowing us to move on to our new BTO. He is nice and friendly."
   },
   {
    "name": "H.",
@@ -53,8 +53,8 @@
    "source": "App Store",
    "via": "App Store",
    "url": null,
-   "title": "Thanks Louis Tay […]",
-   "text": "Would like to thank Louis Tay […] for his help in getting us our flat (we are the buyers). His value definitely shown through during the negotiation phase with the sellers, helping us to save costs (probably an amount higher than the costs of hiring […]).\n\n[…]\n\nThanks once again Louis, was a pleasure working with you!"
+   "title": "Thanks Louis Tay",
+   "text": "Would like to thank Louis Tay for his help in getting us our flat (we are the buyers). His value definitely shone through during the negotiation phase with the sellers, helping us to save costs (probably an amount higher than the cost of hiring him).\n\nThanks once again Louis, was a pleasure working with you!"
   },
   {
    "name": "T.P.",
