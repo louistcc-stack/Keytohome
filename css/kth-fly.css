@@ -1,0 +1,37 @@
+/* Home hero: scroll-driven drone flythrough, then a reel of real sold homes. */
+.fly{position:relative;height:520vh;background:#0d0b08;margin-top:0}
+.fly-stick{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.fly-v,.fly-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fly-poster{opacity:1;transition:opacity .4s}
+.fly.has-video .fly-poster{opacity:0}
+.fly-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,11,8,.45) 0%,rgba(13,11,8,0) 30%,rgba(13,11,8,0) 60%,rgba(13,11,8,.55) 100%);pointer-events:none}
+.fly-copy{position:absolute;left:6vw;right:6vw;bottom:12vh;color:#fff;max-width:760px;will-change:opacity,transform}
+.fly-copy h1{font-size:clamp(52px,9vw,112px);line-height:.92;letter-spacing:-.04em;font-weight:800;margin:0 0 14px;color:#fff}
+.fly-copy .q{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500;font-size:clamp(22px,2.6vw,32px);color:rgba(243,235,221,.95);margin:0 0 26px}
+.fly-copy .btns{display:flex;gap:12px;flex-wrap:wrap}
+.fly-hint{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);color:rgba(255,255,255,.8);font-size:13px;display:flex;flex-direction:column;align-items:center;gap:6px}
+.fly-hint i{width:1px;height:34px;background:linear-gradient(#fff,transparent)}
+@media (prefers-reduced-motion:no-preference){.fly-hint i{animation:flyhint 1.8s ease-in-out infinite}}
+@keyframes flyhint{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+.fly-bloom{position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,#FFF6E4 0%,#F3E2BC 55%,#E9CF96 100%);opacity:0;pointer-events:none}
+.fly-reel{position:absolute;inset:0;opacity:0;pointer-events:none;background:#0d0b08}
+.fly-reel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.08)}
+.fly-reel img.on{opacity:1}
+.fly-cap{position:absolute;left:6vw;bottom:9vh;color:#fff;display:flex;flex-direction:column;gap:8px;text-shadow:0 2px 18px rgba(0,0,0,.45)}
+.fly-cap .tag{align-self:flex-start;background:#D69F1A;color:#1C1917;font-weight:800;font-size:12px;letter-spacing:.12em;padding:6px 10px;border-radius:999px}
+.fly-cap b{font-size:clamp(26px,3.4vw,44px);font-weight:800;letter-spacing:-.02em;line-height:1.05}
+.fly-cap span{font-size:16px;color:rgba(255,255,255,.88)}
+.fly-count{position:absolute;right:6vw;bottom:9vh;color:#fff;font-variant-numeric:tabular-nums;font-size:15px;opacity:.85}
+.fly-end{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;opacity:0;pointer-events:none;background:rgba(13,11,8,.62)}
+.fly-end.on{pointer-events:auto}
+.fly-end h2{color:#fff;font-size:clamp(34px,5vw,64px);line-height:1.02;letter-spacing:-.03em;margin:0 0 12px}
+.fly-end p{color:rgba(243,235,221,.9);font-size:18px;margin:0 auto 24px;max-width:34em}
+.fly-end .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.fly-note{position:absolute;right:14px;top:84px;font-size:11px;color:rgba(255,255,255,.6)}
+html[data-theme="beige"] .fly .pill.ghost{border:1.5px solid rgba(255,255,255,.75)!important;color:#fff!important;background:transparent!important}
+/* Reduced motion: no scroll journey, just the opening frame and the call to action */
+@media (prefers-reduced-motion:reduce){.fly{height:auto}.fly-stick{position:relative;height:88vh}.fly-hint,.fly-reel,.fly-bloom{display:none}}
+@media(max-width:700px){.fly{height:440vh}.fly-copy{bottom:14vh}.fly-copy .btns .pill{flex:1;justify-content:center}}
+.fly-cap,.fly-count{z-index:2}
+.fly-reel::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(13,11,8,0) 55%,rgba(13,11,8,.6) 100%)}
+html[data-theme="beige"] .fly .fly-end h2{color:#fff}
