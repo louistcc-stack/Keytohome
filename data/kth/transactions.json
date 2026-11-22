@@ -726,9 +726,7 @@
    "type": "HDB",
    "status": "Bought",
    "photos": [
-    "assets/kth/transactions/a5434bc8e49e4e09a929bdc8fdbc4c74.webp",
-    "assets/kth/transactions/d4c9dea2d8624d02add5a36f0284384e.webp",
-    "assets/kth/transactions/35704cdaf6084b88b72878398a42818b.webp"
+    "assets/kth/transactions/a5434bc8e49e4e09a929bdc8fdbc4c74.webp"
    ],
    "side": "buyer"
   }
